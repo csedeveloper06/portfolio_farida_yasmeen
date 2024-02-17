@@ -6,7 +6,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './LayOut/Main';
-import Portfolio from './Pages/Portfolio/Portfolio';
+import Portfolio from './Pages/Portfolio/Portfolio/Portfolio';
+
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children:[
       {
-        path:'/',
+        path:"/",
         element:<Portfolio></Portfolio>
       }
     ]
@@ -23,6 +24,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <div>
+        <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )
