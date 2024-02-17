@@ -1,0 +1,23 @@
+[
+    {
+        
+        "title": "Online Food Shop",
+        "logo":"https://i.ibb.co/HrntVPr/logo.png",
+        "description": "FoODiE is a online brand-based food shop. Customer can buy brand-based food products like coca-cola, McDonalds, Starbucks, pePsico, Nestle, Kellogg's , etc. Home page will have a navbar, banner, footer and at least 6 types of brand names having the following information: brand imageand brand name.The navbar will have website name with logo, Home, Add Product, My Cart, and Login.We implement Email and password based Authentication.",
+        "frontEndLiveLink": ""
+    },
+    {
+        
+        "title": "ToursNTracks",
+        "logo":"https://i.ibb.co/nc4wTyB/logo.png",
+        "description": "ToursNTrack is a offline service sharing web application.We keep the navbar and footer on all the pages including/excluding the 404-page. Create a reasonable and meaningful footer. (including website logo+name , copyright,some contact information, social media links, address, etc.).  website d have a navbar with the Website name+logo. We have login and registration system.Use the Environment variable to hide the Firebase config keys and Mongodb Credentials.",
+        "frontEndLiveLink": "https://assignment11-firebase-auth.firebaseapp.com/"
+    },
+    {
+        
+        "title": "TimesTalk",
+        "logo":"https://i.ibb.co/hK57GmH/globe-logo.jpg",
+        "description": "TimesTalk is a NewsPaper website.Home page will have a Navbar,6 Trending Articles (Must Be a Slider),All Publisher,Statistic,Plans and Footer Section . We have subscription page. Show a attractive banner here. Keep a button to take a subscription. On clicking the button navigate to a payment page. We have admin section.We implement Email and password based Authentication.It will also have Private Route and JWT.Pagination,Tanstack query.",
+        "frontEndLiveLink": "https://assignment12-auth.firebaseapp.com/"
+    }
+]
