@@ -10,11 +10,11 @@ const Banner = () => {
           /> */}
           <div className="space-y-4 text-center divide-y dark:divide-gray-700">
             <div className="my-2 space-y-1">
-              <h2 className="text-xl font-semibold sm:text-2xl">
+              <h2 className="text-xl font-semibold sm:text-2xl text-yellow-600">
                 Farida Yasmeen
               </h2>
-              <p className="px-5 text-xs sm:text-base dark:text-gray-400">
-                Junior Front-End developer
+              <p className="px-5 text-xs sm:text-base dark:text-gray-400 text-yellow-600">
+                Junior Front-End Developer
               </p>
             </div>
             <div className="flex justify-center pt-2 space-x-4 align-center">
@@ -80,8 +80,8 @@ const Banner = () => {
       </div>
       <div>
         <div className="avatar">
-          <div className="w-60 rounded-full">
-            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <div className="w-40 rounded-full lg:w-60">
+            <img src="https://i.ibb.co/54spsMT/farida.png" />
           </div>
         </div>
       </div>
