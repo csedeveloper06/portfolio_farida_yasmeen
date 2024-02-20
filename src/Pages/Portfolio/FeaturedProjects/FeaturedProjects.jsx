@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import { data } from "autoprefixer";
 
 
 const FeaturedProjects = () => {
 
     const [ projects,setProjects ] = useState([]);
 
-    useEffect( ()=> {
-        fetch('http://localhost:5000/projects')
-        .then(res => res.json())
+    useEffect(()=> {
+        fetch('https://my-portfolio-server-iota-henna.vercel.app/assignments')
+        .then(res=>res.json())
         .then(data => setProjects(data))
     },[])
 

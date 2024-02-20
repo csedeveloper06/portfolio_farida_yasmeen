@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       {
         path: "/projectdetails/:id",
         element: <ProjectDetails></ProjectDetails>,
-        loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`)
+        loader: ({params})=>fetch(`https://my-portfolio-server-iota-henna.vercel.app/assignments/${params.id}`)
       },
     ]
   },
